@@ -5,18 +5,18 @@ setup:
     max_gap_fill: 50
 global_attrs:
     title: ${main.campaign} level 2 sounding data
-#    source: "{input_file}"
+    source: "{input_file}"
     version: "{version}"
     history: "created with {package} ({version}) on {date}"
 #    description: ???
-#    campaign_id: ${main.campaign_id}
+    campaign_id: ${main.campaign_id}
 #    platform: ${main.platform}
 #    instrument: "Radiosonde RS41-SGP by Vaisala"
     doi: "10.5281/zenodo.7051674"
 #    featureType: "trajectory"
 #    acknowledgement: ???
 #    references: ???
-#    Conventions: "CF-1.7"
+    Conventions: "CF-1.7"
 
 coordinates:
     sounding:
