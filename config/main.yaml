@@ -1,7 +1,7 @@
-campaign: EUREC4A
-campaign_id: EUREC4A
-platform: BCO
-location: Deebles Point
+campaign: CircBrazil
+campaign_id: CircBrazil
+platform: R/V Sonne
+location: Atlantic
 configs:
     main: config/main.yaml  # name of this file
     level0: config/level0_mwx.yml
