@@ -6,7 +6,7 @@ setup:
 global_attrs:
     title: ${main.campaign} level 2 sounding data
     source: "{input_file}"
-    version: "{version}"
+    version: ${data_version}
     history: "created with {package} ({version}) on {date}"
 #    description: ???
     campaign_id: ${main.campaign_id}

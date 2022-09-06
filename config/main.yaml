@@ -2,6 +2,7 @@ campaign: CircBrazil
 campaign_id: CircBrazil
 platform: R/V Sonne
 location: Atlantic
+data_version: v1.0.0
 configs:
     main: config/main.yaml  # name of this file
     level0: config/level0_mwx.yaml
