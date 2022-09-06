@@ -1,6 +1,6 @@
 campaign: CircBrazil
 campaign_id: CircBrazil
-platform: R/V Sonne
+platform: SO
 location: Atlantic
 data_version: v1.0.0
 configs:
