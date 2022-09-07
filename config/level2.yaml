@@ -28,11 +28,15 @@ coordinates:
         dimension: ${runtime.level_dim}
         attrs:
             units: "m"
+        encodings:
+            dtype: "int16"
         internal_varname: "alt"
     nv:
         dimension: 2
         attrs:
             units: ""
+        encodings:
+            dtype: "int16"
         internal_varname: "nv"
 variables:
     alt:
