@@ -90,6 +90,18 @@ variables:
             - sounding
             - level
         internal_varname : "height"
+    alt_WGS84:
+        attrs:
+            standard_name: "height_above_reference_ellipsoid"
+            positive: "up"
+            units: "m"
+            coordinates: "launch_time flight_time lon lat p"
+        encodings:
+            dtype: "float32"
+        coordinates:
+            - sounding
+            - level
+        internal_varname : "altitude_WGS84"
     ta:
         attrs:
             standard_name: "air_temperature"
