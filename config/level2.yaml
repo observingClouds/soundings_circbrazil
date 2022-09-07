@@ -71,18 +71,6 @@ variables:
         coordinates:
             - sounding
         internal_varname : "launch_time"
-    platform:
-        attrs:
-            long_name: "platform identifier"
-            coordinates: "launch_time"
-            flag_meanings: "BCO Meteor"
-            flag_values: "[1, 2]"
-            units: "1"
-        encodings:
-            dtype: "int8"
-        coordinates:
-            - sounding
-        internal_varname: "platform"
     ascent_flag:
         attrs:
             long_name: "indicator of vertical flight direction"
