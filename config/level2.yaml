@@ -21,10 +21,19 @@ global_attrs:
 coordinates:
     sounding:
         dimension: ${runtime.sounding_dim}
+        attrs:
+            units: ""
+        internal_varname: "sounding"
     alt:
         dimension: ${runtime.level_dim}
+        attrs:
+            units: "m"
+        internal_varname: "alt"
     nv:
         dimension: 2
+        attrs:
+            units: ""
+        internal_varname: "nv"
 variables:
     alt:
         attrs:
