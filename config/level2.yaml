@@ -48,7 +48,7 @@ variables:
             positive: "up"
             bounds: "alt_bnds"
         encodings:
-            dtype: "int8"
+            dtype: "int16"
             _FillValue: False
         coordinates:
             - alt
@@ -58,7 +58,7 @@ variables:
         attrs:
             comment: "(lower bound, upper bound]"
         encodings:
-            dtype: "int8"
+            dtype: "int16"
             _FillValue: False
         coordinates:
             - alt
@@ -83,7 +83,7 @@ variables:
             valid_range: "[ 0,1 ]"
             coordinates: "launch_time"
         encodings:
-            dtype: "int8"
+            dtype: "int16"
         coordinates:
             - sounding
         internal_varname: "ascent_flag"
@@ -337,7 +337,7 @@ variables:
             flag_values: "[ 0, 1, 2 ]"
             coordinates: "lon lat flight_time launch_time"
         encodings:
-            dtype: "int8"
+            dtype: "int16"
         coordinates:
             - sounding
             - alt
@@ -350,7 +350,7 @@ variables:
             flag_values: "[ 0, 1, 2 ]"
             coordinates: "lon lat flight_time launch_time"
         encodings:
-            dtype: "int8"
+            dtype: "int16"
         coordinates:
             - sounding
             - alt
