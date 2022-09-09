@@ -1,4 +1,4 @@
-# Radiosounding of CircBrazil campaign
+# Radiosoundings of CircBrazil campaign
 [![Data](https://img.shields.io/badge/Data-10.5281%2Fzenodo.7051674-green)](https://doi.org/110.5281/zenodo.7051674)
 
 This repository contains references to the campaigns radiosoundings its post-processing steps.
