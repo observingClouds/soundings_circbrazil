@@ -4,6 +4,10 @@
 This repository contains references to the campaigns radiosoundings its post-processing steps.
 
 ## Dataset
+
+### Overview about sounding positions
+![image](examples/sounding_launch_positions.png)
+
 The [dataset](https://doi.org/110.5281/zenodo.7051674) contains three processing levels:
 
 |Processing level | Description | Usage examples |
