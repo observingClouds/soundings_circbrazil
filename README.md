@@ -1,7 +1,12 @@
 # Radiosoundings of CircBrazil campaign
 [![Data](https://img.shields.io/badge/Data-10.5281%2Fzenodo.7051674-green)](https://doi.org/110.5281/zenodo.7051674)
 
-This repository contains references to the campaigns radiosoundings its post-processing steps.
+This repository contains references to the radiosoundings and their post-processing steps of the cruise
+*Tropical Atlantic Circulation and Climate: Mooring Rescue* or short *CircBrazil*. This cruise undertaken on RV Sonne has the identifier SO284.
+
+The cruise started June 27, 2021 in Emden, Germany and ended August 16, 2021 in Emden, Germany.
+
+Further general information about the cruise can be found in the [cruise report](https://doi.org/10.48433/cr_so284)
 
 ## Dataset
 
