@@ -30,13 +30,16 @@ DOI can be reserved before publishing at most DOI providers, e.g. at [zenodo.org
 
 ## Minimal example
 ### Level2 data overview
+
+Note: the following example downloads the data directly from zenodo. It might therefore take some time to execute the first time.
+
 ```python
 import xarray as xr
 import fsspec
 import numpy as np
 import matplotlib.pyplot as plt
 
-m = fsspec.open("zip://data/level2/CircBrazil_Sonne_soundings_level2_v1.0.0.nc::/work/mh0010/m300408/circBrazil_Soundings/data.zip")
+m = fsspec.open("zip://data/level2/CircBrazil_Sonne_soundings_level2_v1.0.0.nc::simplecache::https://zenodo.org/api/files/48e1380e-eb65-47fe-8642-c38430495efd/data.zip")
 
 layout = {'dz': {'vmin':-10, 'vmax':10, 'cmap':'RdBu'}}
 fig, axs = plt.subplots(4,4,figsize=(17,12),sharex=True, sharey=True)
