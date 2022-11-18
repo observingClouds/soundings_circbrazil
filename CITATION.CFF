@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: Sounding data of SO284
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Hauke
+    family-names: Schulz
+    email: haschulz@uw.edu
+  - given-names: Henning
+    family-names: Franke
+  - given-names: Ilaria
+    family-names: Quaglia
+  - given-names: Katharina
+    family-names: Stolla
+  - given-names: Ronny
+    family-names: Engelmann
+  - given-names: Jonas
+    family-names: Lehmke
+  - given-names: Thomas
+    family-names: Ruhtz
+  - given-names: Annett
+    family-names: Skupin
+  - given-names: Julia
+    family-names: Windmiller
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7051674
+repository-code: >-
+  https://github.com/observingClouds/soundings_circbrazil
+abstract: >-
+  Radiosonde data from the RV Sonne cruise SO284:
+  Tropical Atlantic Circulation and Climate: Mooring
+  Rescue (27 June 2021 - 16 August 2021)
+version: v1.0.0
+date-released: '2022-11-05'
